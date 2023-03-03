@@ -21,6 +21,30 @@
 	line-height:107%;
 	font-size:11.0pt;
 	font-family:"Calibri",sans-serif;}
+h1
+	{mso-style-link:"Heading 1 Char";
+	margin-right:0in;
+	margin-left:0in;
+	font-size:24.0pt;
+	font-family:"Times New Roman",serif;
+	font-weight:bold;}
+h2
+	{mso-style-link:"Heading 2 Char";
+	margin-right:0in;
+	margin-left:0in;
+	font-size:18.0pt;
+	font-family:"Times New Roman",serif;
+	font-weight:bold;}
+span.Heading1Char
+	{mso-style-name:"Heading 1 Char";
+	mso-style-link:"Heading 1";
+	font-family:"Times New Roman",serif;
+	font-weight:bold;}
+span.Heading2Char
+	{mso-style-name:"Heading 2 Char";
+	mso-style-link:"Heading 2";
+	font-family:"Times New Roman",serif;
+	font-weight:bold;}
 .MsoChpDefault
 	{font-family:"Calibri",sans-serif;}
 .MsoPapDefault
@@ -136,10 +160,89 @@ ready for production once deployed on the real cloud. By providing a
 cost-effective and easy-to-use solution, Clumi is helping developers to save
 money, work more efficiently, and improve the quality of their cloud solutions.</span></p>
 
+<h1><span style='font-size:13.5pt'><br>
+</span>Architecture Overview</h1>
+
 <p class=MsoNormal style='margin-bottom:0in;line-height:normal'><span
-style='font-size:13.5pt;font-family:"Times New Roman",serif;color:black'><br>
-<br>
-</span></p>
+style='font-size:12.0pt;font-family:"Times New Roman",serif'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-bottom:0in;line-height:normal'><span
+style='font-size:12.0pt;font-family:"Times New Roman",serif'>The Clumi
+architecture consists of several key components, including:</span></p>
+
+<p class=MsoNormal style='margin-bottom:0in;line-height:normal'><span
+style='font-size:12.0pt;font-family:"Times New Roman",serif'>&nbsp;</span></p>
+
+<h2>Gateway:</h2>
+
+<p class=MsoNormal style='margin-bottom:0in;line-height:normal'><span
+style='font-size:12.0pt;font-family:"Times New Roman",serif'>The Gateway is
+responsible for managing incoming requests from users and routing them to the
+appropriate service.</span></p>
+
+<p class=MsoNormal style='margin-bottom:0in;line-height:normal'><span
+style='font-size:12.0pt;font-family:"Times New Roman",serif'>&nbsp;</span></p>
+
+<h2>API Portal:</h2>
+
+<p class=MsoNormal style='margin-bottom:0in;line-height:normal'><span
+style='font-size:12.0pt;font-family:"Times New Roman",serif'>The API Portal
+provides a centralized interface for accessing and managing cloud services,
+allowing developers to easily access and manage their cloud solutions.</span></p>
+
+<p class=MsoNormal style='margin-bottom:0in;line-height:normal'><span
+style='font-size:12.0pt;font-family:"Times New Roman",serif'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-bottom:0in;line-height:normal'><span
+style='font-size:12.0pt;font-family:"Times New Roman",serif'>Service
+Orchestration Manager:</span></p>
+
+<p class=MsoNormal style='margin-bottom:0in;line-height:normal'><span
+style='font-size:12.0pt;font-family:"Times New Roman",serif'>This component is
+responsible for orchestrating and managing cloud services, resources, and
+subscriptions. It can be thought of as similar to the &quot;Master&quot; node
+in a Kubernetes cluster, as it performs similar functions such as monitoring
+the state of the system, ensuring resources are allocated and used optimally,
+and handling failures or issues that may arise. The Service Orchestration
+Manager provides a secure and scalable framework for managing cloud services,
+allowing developers to easily create and manage large, complex cloud solutions
+with confidence.</span></p>
+
+<p class=MsoNormal style='margin-bottom:0in;line-height:normal'><span
+style='font-size:12.0pt;font-family:"Times New Roman",serif'>&nbsp;</span></p>
+
+<h2>Resources Manager:</h2>
+
+<p class=MsoNormal style='margin-bottom:0in;line-height:normal'><span
+style='font-size:12.0pt;font-family:"Times New Roman",serif'>The Resources
+Manager is responsible for resource allocation, similar to the resource groups
+concept of cloud providers. It ensures that services and resources are deployed
+and configured correctly in each service group.</span></p>
+
+<p class=MsoNormal style='margin-bottom:0in;line-height:normal'><span
+style='font-size:12.0pt;font-family:"Times New Roman",serif'>&nbsp;</span></p>
+
+<h2>Service:</h2>
+
+<p class=MsoNormal style='margin-bottom:0in;line-height:normal'><span
+style='font-size:12.0pt;font-family:"Times New Roman",serif'>The Service
+component represents a specific cloud service that the user wants to emulate,
+such as cloud storage, compute, or databases. Services include properties such
+as name, type, and configuration.</span></p>
+
+<p class=MsoNormal style='margin-bottom:0in;line-height:normal'><span
+style='font-size:12.0pt;font-family:"Times New Roman",serif'>&nbsp;</span></p>
+
+<h2>Data Model</h2>
+
+<p class=MsoNormal style='margin-bottom:0in;line-height:normal'><span
+style='font-size:12.0pt;font-family:"Times New Roman",serif'>The data model for
+Clumi is designed to be simple and intuitive, allowing developers to easily
+understand and work with their cloud solutions. The main components of the data
+model can be found here</span></p>
+
+<p class=MsoNormal style='margin-bottom:0in;line-height:normal'><span
+style='font-size:12.0pt;font-family:"Times New Roman",serif'>&nbsp;</span></p>
 
 <p class=MsoNormal style='margin-bottom:0in;line-height:normal'><span
 style='font-size:13.5pt;font-family:"Times New Roman",serif;color:black'>For
